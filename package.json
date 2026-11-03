@@ -1,0 +1,11 @@
+{
+  "name": "flipside",
+  "version": "1.0.0",
+  "description": "Tiny arcade games played from the wrong side. You're the apple, the brick, the ghost, the duck.",
+  "scripts": {
+    "start": "python3 -m http.server 8933 --bind 127.0.0.1",
+    "test": "node tests/smoke.js"
+  },
+  "author": "Jorge Sousa",
+  "license": "MIT"
+}
